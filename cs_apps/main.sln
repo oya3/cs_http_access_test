@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.34112.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apps", "apps", "{B7D414D2-4F74-4959-8EFF-6574180BA69F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "concerns", "concerns", "{40A62D93-97A7-4623-A3F7-36E9FCED7A8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "http_stream", "concerns\http_stream\http_stream.csproj", "{2F17BED2-219A-4F55-83DF-76BE82ED99DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "http_getter_app", "http_getter_app", "{76DAEEB6-CB16-40F6-8567-D52B9A5D3E4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainApp", "apps\http_getter_app\MainApp\MainApp.csproj", "{48A138D7-7779-4985-B500-920B854F8917}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F17BED2-219A-4F55-83DF-76BE82ED99DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F17BED2-219A-4F55-83DF-76BE82ED99DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F17BED2-219A-4F55-83DF-76BE82ED99DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F17BED2-219A-4F55-83DF-76BE82ED99DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A138D7-7779-4985-B500-920B854F8917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A138D7-7779-4985-B500-920B854F8917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A138D7-7779-4985-B500-920B854F8917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A138D7-7779-4985-B500-920B854F8917}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F17BED2-219A-4F55-83DF-76BE82ED99DB} = {40A62D93-97A7-4623-A3F7-36E9FCED7A8A}
+		{76DAEEB6-CB16-40F6-8567-D52B9A5D3E4E} = {B7D414D2-4F74-4959-8EFF-6574180BA69F}
+		{48A138D7-7779-4985-B500-920B854F8917} = {76DAEEB6-CB16-40F6-8567-D52B9A5D3E4E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69FFF1F7-2FF6-4A2B-94B6-A84FB4E02480}
+	EndGlobalSection
+EndGlobal
